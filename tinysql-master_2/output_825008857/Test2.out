@@ -1,0 +1,501 @@
+Test2.txt:1> CREATE TABLE course (sid INT, homework INT, project INT, exam INT, grade STR20)
+Query OK (0 disk I/O, 0 ms)
+
+Test2.txt:2> INSERT INTO course (sid, homework, project, exam, grade) VALUES (1, 99, 100, 100, "A")
+Query OK (1 disk I/O, 74.63 ms)
+
+Test2.txt:3> INSERT INTO course (sid, homework, project, exam, grade) VALUES (3, 100, 100, 98, "C")
+Query OK (1 disk I/O, 75.26 ms)
+
+Test2.txt:4> INSERT INTO course (sid, homework, project, exam, grade) VALUES (3, 100, 69, 64, "C")
+Query OK (1 disk I/O, 74.89 ms)
+
+Test2.txt:5> INSERT INTO course (sid, homework, project, exam, grade) VALUES (15, 100, 50, 90, "E")
+Query OK (1 disk I/O, 75.52 ms)
+
+Test2.txt:6> INSERT INTO course (sid, homework, project, exam, grade) VALUES (15, 100, 99, 100, "E")
+Query OK (1 disk I/O, 75.15 ms)
+
+Test2.txt:7> INSERT INTO course (sid, homework, project, exam, grade) VALUES (17, 100, 100, 100, "A")
+Query OK (1 disk I/O, 74.78 ms)
+
+Test2.txt:8> INSERT INTO course (sid, homework, project, exam, grade) VALUES (2, 100, 100, 99, "B")
+Query OK (1 disk I/O, 75.41 ms)
+
+Test2.txt:9> INSERT INTO course (sid, homework, project, exam, grade) VALUES (4, 100, 100, 97, "D")
+Query OK (1 disk I/O, 75.04 ms)
+
+Test2.txt:10> INSERT INTO course (sid, homework, project, exam, grade) VALUES (5, 100, 100, 66, "A")
+Query OK (1 disk I/O, 74.67 ms)
+
+Test2.txt:11> INSERT INTO course (sid, homework, project, exam, grade) VALUES (6, 100, 100, 65, "B")
+Query OK (1 disk I/O, 75.3 ms)
+
+Test2.txt:12> INSERT INTO course (sid, homework, project, exam, grade) VALUES (7, 100, 50, 73, "C")
+Query OK (1 disk I/O, 74.93 ms)
+
+Test2.txt:13> INSERT INTO course (sid, homework, project, exam, grade) VALUES (8, 50, 50, 62, "C")
+Query OK (1 disk I/O, 75.56 ms)
+
+Test2.txt:14> INSERT INTO course (sid, homework, project, exam, grade) VALUES (9, 50, 50, 61, "D")
+Query OK (1 disk I/O, 75.19 ms)
+
+Test2.txt:15> INSERT INTO course (sid, homework, project, exam, grade) VALUES (10, 50, 70, 70, "C")
+Query OK (1 disk I/O, 74.82 ms)
+
+Test2.txt:16> INSERT INTO course (sid, homework, project, exam, grade) VALUES (11, 50, 50, 59, "D")
+Query OK (1 disk I/O, 75.45 ms)
+
+Test2.txt:17> INSERT INTO course (sid, homework, project, exam, grade) VALUES (12, 0, 70, 58, "C")
+Query OK (1 disk I/O, 75.08 ms)
+
+Test2.txt:18> INSERT INTO course (sid, homework, project, exam, grade) VALUES (13, 0, 50, 77, "C")
+Query OK (1 disk I/O, 74.71 ms)
+
+Test2.txt:19> INSERT INTO course (sid, homework, project, exam, grade) VALUES (14, 50, 50, 56, "D")
+Query OK (1 disk I/O, 75.34 ms)
+
+Test2.txt:20> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 10, 90, 12, "E")
+Query OK (1 disk I/O, 74.97 ms)
+
+Test2.txt:21> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 20, 80, 78, "E")
+Query OK (1 disk I/O, 75.6 ms)
+
+Test2.txt:22> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 30, 70, 39, "E")
+Query OK (1 disk I/O, 75.23 ms)
+
+Test2.txt:23> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 40, 60, 45, "E")
+Query OK (1 disk I/O, 74.86 ms)
+
+Test2.txt:24> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 50, 50, 27, "E")
+Query OK (1 disk I/O, 75.49 ms)
+
+Test2.txt:25> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 60, 40, 33, "E")
+Query OK (1 disk I/O, 75.12 ms)
+
+Test2.txt:26> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 70, 30, 56, "E")
+Query OK (1 disk I/O, 74.75 ms)
+
+Test2.txt:27> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 80, 20, 28, "E")
+Query OK (1 disk I/O, 75.38 ms)
+
+Test2.txt:28> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 90, 10, 98, "E")
+Query OK (1 disk I/O, 75.01 ms)
+
+Test2.txt:29> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 100, 15, 79, "E")
+Query OK (1 disk I/O, 74.64 ms)
+
+Test2.txt:30> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 10, 25, 77, "E")
+Query OK (1 disk I/O, 75.27 ms)
+
+Test2.txt:31> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 20, 35, 44, "E")
+Query OK (1 disk I/O, 74.9 ms)
+
+Test2.txt:32> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 30, 45, 55, "E")
+Query OK (1 disk I/O, 75.53 ms)
+
+Test2.txt:33> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 40, 57, 24, "E")
+Query OK (1 disk I/O, 75.16 ms)
+
+Test2.txt:34> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 50, 78, 64, "E")
+Query OK (1 disk I/O, 74.79 ms)
+
+Test2.txt:35> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 60, 69, 75, "E")
+Query OK (1 disk I/O, 75.42 ms)
+
+Test2.txt:36> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 70, 98, 43, "E")
+Query OK (1 disk I/O, 75.05 ms)
+
+Test2.txt:37> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 80, 45, 68, "E")
+Query OK (1 disk I/O, 74.68 ms)
+
+Test2.txt:38> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 90, 24, 39, "E")
+Query OK (1 disk I/O, 75.31 ms)
+
+Test2.txt:39> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 100, 32, 50, "E")
+Query OK (1 disk I/O, 74.94 ms)
+
+Test2.txt:40> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 10, 14, 10, "E")
+Query OK (1 disk I/O, 75.57 ms)
+
+Test2.txt:41> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 25, 76, 20, "E")
+Query OK (1 disk I/O, 75.2 ms)
+
+Test2.txt:42> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 35, 91, 30, "E")
+Query OK (1 disk I/O, 74.83 ms)
+
+Test2.txt:43> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 45, 95, 40, "E")
+Query OK (1 disk I/O, 75.46 ms)
+
+Test2.txt:44> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 55, 82, 50, "E")
+Query OK (1 disk I/O, 75.09 ms)
+
+Test2.txt:45> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 65, 35, 60, "E")
+Query OK (1 disk I/O, 74.72 ms)
+
+Test2.txt:46> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 75, 37, 70, "E")
+Query OK (1 disk I/O, 75.35 ms)
+
+Test2.txt:47> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 85, 85, 80, "E")
+Query OK (1 disk I/O, 74.98 ms)
+
+Test2.txt:48> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 95, 71, 90, "E")
+Query OK (1 disk I/O, 75.61 ms)
+
+Test2.txt:49> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 100, 82, 100, "E")
+Query OK (1 disk I/O, 75.24 ms)
+
+Test2.txt:50> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 17, 45, 90, "E")
+Query OK (1 disk I/O, 74.87 ms)
+
+Test2.txt:51> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 27, 55, 80, "E")
+Query OK (1 disk I/O, 75.5 ms)
+
+Test2.txt:52> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 37, 66, 70, "E")
+Query OK (1 disk I/O, 75.13 ms)
+
+Test2.txt:53> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 49, 77, 60, "E")
+Query OK (1 disk I/O, 74.76 ms)
+
+Test2.txt:54> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 51, 88, 50, "E")
+Query OK (1 disk I/O, 75.39 ms)
+
+Test2.txt:55> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 63, 99, 40, "E")
+Query OK (1 disk I/O, 75.02 ms)
+
+Test2.txt:56> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 78, 21, 30, "E")
+Query OK (1 disk I/O, 74.65 ms)
+
+Test2.txt:57> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 80, 22, 20, "E")
+Query OK (1 disk I/O, 75.28 ms)
+
+Test2.txt:58> INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 99, 33, 10, "E")
+Query OK (1 disk I/O, 74.91 ms)
+
+Test2.txt:59> INSERT INTO course (sid, homework, project, exam, grade) VALUES (17, 100, 100, 100, "A")
+Query OK (1 disk I/O, 75.54 ms)
+
+Test2.txt:60> SELECT DISTINCT grade FROM course
++-------+
+| grade |
++-------+
+| A     |
+| B     |
+| C     |
+| D     |
+| E     |
++-------+
+5 rows in set (90 disk I/O, 6717.24 ms)
+
+Test2.txt:61> SELECT DISTINCT * FROM course
++-----+----------+---------+------+-------+
+| sid | homework | project | exam | grade |
++-----+----------+---------+------+-------+
+|   1 |       99 |     100 |  100 | A     |
+|   2 |      100 |     100 |   99 | B     |
+|   3 |      100 |      69 |   64 | C     |
+|   3 |      100 |     100 |   98 | C     |
+|   4 |      100 |     100 |   97 | D     |
+|   5 |      100 |     100 |   66 | A     |
+|   6 |      100 |     100 |   65 | B     |
+|   7 |      100 |      50 |   73 | C     |
+|   8 |       50 |      50 |   62 | C     |
+|   9 |       50 |      50 |   61 | D     |
+|  10 |       50 |      70 |   70 | C     |
+|  11 |       50 |      50 |   59 | D     |
+|  12 |        0 |      70 |   58 | C     |
+|  13 |        0 |      50 |   77 | C     |
+|  14 |       50 |      50 |   56 | D     |
+|  15 |      100 |      50 |   90 | E     |
+|  15 |      100 |      99 |  100 | E     |
+|  16 |       10 |      14 |   10 | E     |
+|  16 |       10 |      25 |   77 | E     |
+|  16 |       10 |      90 |   12 | E     |
+|  16 |       17 |      45 |   90 | E     |
+|  16 |       20 |      35 |   44 | E     |
+|  16 |       20 |      80 |   78 | E     |
+|  16 |       25 |      76 |   20 | E     |
+|  16 |       27 |      55 |   80 | E     |
+|  16 |       30 |      45 |   55 | E     |
+|  16 |       30 |      70 |   39 | E     |
+|  16 |       35 |      91 |   30 | E     |
+|  16 |       37 |      66 |   70 | E     |
+|  16 |       40 |      57 |   24 | E     |
+|  16 |       40 |      60 |   45 | E     |
+|  16 |       45 |      95 |   40 | E     |
+|  16 |       49 |      77 |   60 | E     |
+|  16 |       50 |      50 |   27 | E     |
+|  16 |       50 |      78 |   64 | E     |
+|  16 |       51 |      88 |   50 | E     |
+|  16 |       55 |      82 |   50 | E     |
+|  16 |       60 |      40 |   33 | E     |
+|  16 |       60 |      69 |   75 | E     |
+|  16 |       63 |      99 |   40 | E     |
+|  16 |       65 |      35 |   60 | E     |
+|  16 |       70 |      30 |   56 | E     |
+|  16 |       70 |      98 |   43 | E     |
+|  16 |       75 |      37 |   70 | E     |
+|  16 |       78 |      21 |   30 | E     |
+|  16 |       80 |      20 |   28 | E     |
+|  16 |       80 |      22 |   20 | E     |
+|  16 |       80 |      45 |   68 | E     |
+|  16 |       85 |      85 |   80 | E     |
+|  16 |       90 |      10 |   98 | E     |
+|  16 |       90 |      24 |   39 | E     |
+|  16 |       95 |      71 |   90 | E     |
+|  16 |       99 |      33 |   10 | E     |
+|  16 |      100 |      15 |   79 | E     |
+|  16 |      100 |      32 |   50 | E     |
+|  16 |      100 |      82 |  100 | E     |
+|  17 |      100 |     100 |  100 | A     |
++-----+----------+---------+------+-------+
+57 rows in set (290 disk I/O, 21642.9 ms)
+
+Test2.txt:62> SELECT * FROM course ORDER BY sid
++-----+----------+---------+------+-------+
+| sid | homework | project | exam | grade |
++-----+----------+---------+------+-------+
+|   1 |       99 |     100 |  100 | A     |
+|   2 |      100 |     100 |   99 | B     |
+|   3 |      100 |      69 |   64 | C     |
+|   3 |      100 |     100 |   98 | C     |
+|   4 |      100 |     100 |   97 | D     |
+|   5 |      100 |     100 |   66 | A     |
+|   6 |      100 |     100 |   65 | B     |
+|   7 |      100 |      50 |   73 | C     |
+|   8 |       50 |      50 |   62 | C     |
+|   9 |       50 |      50 |   61 | D     |
+|  10 |       50 |      70 |   70 | C     |
+|  11 |       50 |      50 |   59 | D     |
+|  12 |        0 |      70 |   58 | C     |
+|  13 |        0 |      50 |   77 | C     |
+|  14 |       50 |      50 |   56 | D     |
+|  15 |      100 |      50 |   90 | E     |
+|  15 |      100 |      99 |  100 | E     |
+|  16 |       10 |      14 |   10 | E     |
+|  16 |       10 |      25 |   77 | E     |
+|  16 |       10 |      90 |   12 | E     |
+|  16 |       17 |      45 |   90 | E     |
+|  16 |       20 |      35 |   44 | E     |
+|  16 |       20 |      80 |   78 | E     |
+|  16 |       25 |      76 |   20 | E     |
+|  16 |       27 |      55 |   80 | E     |
+|  16 |       30 |      45 |   55 | E     |
+|  16 |       30 |      70 |   39 | E     |
+|  16 |       35 |      91 |   30 | E     |
+|  16 |       37 |      66 |   70 | E     |
+|  16 |       40 |      57 |   24 | E     |
+|  16 |       40 |      60 |   45 | E     |
+|  16 |       45 |      95 |   40 | E     |
+|  16 |       49 |      77 |   60 | E     |
+|  16 |       50 |      50 |   27 | E     |
+|  16 |       50 |      78 |   64 | E     |
+|  16 |       51 |      88 |   50 | E     |
+|  16 |       55 |      82 |   50 | E     |
+|  16 |       60 |      40 |   33 | E     |
+|  16 |       60 |      69 |   75 | E     |
+|  16 |       63 |      99 |   40 | E     |
+|  16 |       65 |      35 |   60 | E     |
+|  16 |       70 |      30 |   56 | E     |
+|  16 |       70 |      98 |   43 | E     |
+|  16 |       75 |      37 |   70 | E     |
+|  16 |       78 |      21 |   30 | E     |
+|  16 |       80 |      20 |   28 | E     |
+|  16 |       80 |      22 |   20 | E     |
+|  16 |       80 |      45 |   68 | E     |
+|  16 |       85 |      85 |   80 | E     |
+|  16 |       90 |      10 |   98 | E     |
+|  16 |       90 |      24 |   39 | E     |
+|  16 |       95 |      71 |   90 | E     |
+|  16 |       99 |      33 |   10 | E     |
+|  16 |      100 |      15 |   79 | E     |
+|  16 |      100 |      32 |   50 | E     |
+|  16 |      100 |      82 |  100 | E     |
+|  17 |      100 |     100 |  100 | A     |
+|  17 |      100 |     100 |  100 | A     |
++-----+----------+---------+------+-------+
+58 rows in set (290 disk I/O, 21643.6 ms)
+
+Test2.txt:63> CREATE TABLE course2 (sid INT, exam INT, grade STR20)
+Query OK (0 disk I/O, 0.64 ms)
+
+Test2.txt:64> INSERT INTO course2 (sid, exam, grade) VALUES (1, 100, "A")
+Query OK (1 disk I/O, 75.27 ms)
+
+Test2.txt:65> INSERT INTO course2 (sid, exam, grade) VALUES (16, 25, "E")
+Query OK (2 disk I/O, 149.53 ms)
+
+Test2.txt:66> INSERT INTO course2 (sid, exam, grade) VALUES (17, 0, "A")
+Query OK (1 disk I/O, 75.16 ms)
+
+Test2.txt:67> INSERT INTO course2 (sid, exam, grade) VALUES (2, 99, "B")
+Query OK (2 disk I/O, 149.42 ms)
+
+Test2.txt:68> INSERT INTO course2 (sid, exam, grade) VALUES (3, 98, "C")
+Query OK (1 disk I/O, 75.05 ms)
+
+Test2.txt:69> INSERT INTO course2 (sid, exam, grade) VALUES (4, 97, "D")
+Query OK (2 disk I/O, 149.31 ms)
+
+Test2.txt:70> INSERT INTO course2 (sid, exam, grade) VALUES (5, 66, "A")
+Query OK (1 disk I/O, 74.94 ms)
+
+Test2.txt:71> INSERT INTO course2 (sid, exam, grade) VALUES (6, 65, "B")
+Query OK (2 disk I/O, 150.2 ms)
+
+Test2.txt:72> INSERT INTO course2 (sid, exam, grade) VALUES (18, 35, "A")
+Query OK (1 disk I/O, 74.83 ms)
+
+Test2.txt:73> INSERT INTO course2 (sid, exam, grade) VALUES (18, 57, "A")
+Query OK (2 disk I/O, 150.09 ms)
+
+Test2.txt:74> INSERT INTO course2 (sid, exam, grade) VALUES (18, 87, "A")
+Query OK (1 disk I/O, 74.72 ms)
+
+Test2.txt:75> INSERT INTO course2 (sid, exam, grade) VALUES (18, 99, "A")
+Query OK (2 disk I/O, 149.98 ms)
+
+Test2.txt:76> INSERT INTO course2 (sid, exam, grade) VALUES (18, 27, "A")
+Query OK (1 disk I/O, 75.61 ms)
+
+Test2.txt:77> INSERT INTO course2 (sid, exam, grade) VALUES (18, 46, "A")
+Query OK (2 disk I/O, 149.87 ms)
+
+Test2.txt:78> INSERT INTO course2 (sid, exam, grade) VALUES (18, 58, "A")
+Query OK (1 disk I/O, 75.5 ms)
+
+Test2.txt:79> INSERT INTO course2 (sid, exam, grade) VALUES (18, 20, "A")
+Query OK (2 disk I/O, 149.76 ms)
+
+Test2.txt:80> SELECT course.grade, course2.grade FROM course, course2 WHERE course.sid = course2.sid
++--------------+---------------+
+| course.grade | course2.grade |
++--------------+---------------+
+| A            | A             |
+| B            | B             |
+| C            | C             |
+| C            | C             |
+| D            | D             |
+| A            | A             |
+| B            | B             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| E            | E             |
+| A            | A             |
+| A            | A             |
++--------------+---------------+
+48 rows in set (408 disk I/O, 30449.8 ms)
+
+Test2.txt:81> SELECT * FROM course, course2 WHERE course.sid = course2.sid ORDER BY course.exam
++------------+-----------------+----------------+-------------+--------------+-------------+--------------+---------------+
+| course.sid | course.homework | course.project | course.exam | course.grade | course2.sid | course2.exam | course2.grade |
++------------+-----------------+----------------+-------------+--------------+-------------+--------------+---------------+
+|         16 |              10 |             14 |          10 | E            |          16 |           25 | E             |
+|         16 |              99 |             33 |          10 | E            |          16 |           25 | E             |
+|         16 |              10 |             90 |          12 | E            |          16 |           25 | E             |
+|         16 |              25 |             76 |          20 | E            |          16 |           25 | E             |
+|         16 |              80 |             22 |          20 | E            |          16 |           25 | E             |
+|         16 |              40 |             57 |          24 | E            |          16 |           25 | E             |
+|         16 |              50 |             50 |          27 | E            |          16 |           25 | E             |
+|         16 |              80 |             20 |          28 | E            |          16 |           25 | E             |
+|         16 |              35 |             91 |          30 | E            |          16 |           25 | E             |
+|         16 |              78 |             21 |          30 | E            |          16 |           25 | E             |
+|         16 |              60 |             40 |          33 | E            |          16 |           25 | E             |
+|         16 |              30 |             70 |          39 | E            |          16 |           25 | E             |
+|         16 |              90 |             24 |          39 | E            |          16 |           25 | E             |
+|         16 |              45 |             95 |          40 | E            |          16 |           25 | E             |
+|         16 |              63 |             99 |          40 | E            |          16 |           25 | E             |
+|         16 |              70 |             98 |          43 | E            |          16 |           25 | E             |
+|         16 |              20 |             35 |          44 | E            |          16 |           25 | E             |
+|         16 |              40 |             60 |          45 | E            |          16 |           25 | E             |
+|         16 |              51 |             88 |          50 | E            |          16 |           25 | E             |
+|         16 |              55 |             82 |          50 | E            |          16 |           25 | E             |
+|         16 |             100 |             32 |          50 | E            |          16 |           25 | E             |
+|         16 |              30 |             45 |          55 | E            |          16 |           25 | E             |
+|         16 |              70 |             30 |          56 | E            |          16 |           25 | E             |
+|         16 |              49 |             77 |          60 | E            |          16 |           25 | E             |
+|         16 |              65 |             35 |          60 | E            |          16 |           25 | E             |
+|          3 |             100 |             69 |          64 | C            |           3 |           98 | C             |
+|         16 |              50 |             78 |          64 | E            |          16 |           25 | E             |
+|          6 |             100 |            100 |          65 | B            |           6 |           65 | B             |
+|          5 |             100 |            100 |          66 | A            |           5 |           66 | A             |
+|         16 |              80 |             45 |          68 | E            |          16 |           25 | E             |
+|         16 |              37 |             66 |          70 | E            |          16 |           25 | E             |
+|         16 |              75 |             37 |          70 | E            |          16 |           25 | E             |
+|         16 |              60 |             69 |          75 | E            |          16 |           25 | E             |
+|         16 |              10 |             25 |          77 | E            |          16 |           25 | E             |
+|         16 |              20 |             80 |          78 | E            |          16 |           25 | E             |
+|         16 |             100 |             15 |          79 | E            |          16 |           25 | E             |
+|         16 |              27 |             55 |          80 | E            |          16 |           25 | E             |
+|         16 |              85 |             85 |          80 | E            |          16 |           25 | E             |
+|         16 |              17 |             45 |          90 | E            |          16 |           25 | E             |
+|         16 |              95 |             71 |          90 | E            |          16 |           25 | E             |
+|          4 |             100 |            100 |          97 | D            |           4 |           97 | D             |
+|          3 |             100 |            100 |          98 | C            |           3 |           98 | C             |
+|         16 |              90 |             10 |          98 | E            |          16 |           25 | E             |
+|          2 |             100 |            100 |          99 | B            |           2 |           99 | B             |
+|          1 |              99 |            100 |         100 | A            |           1 |          100 | A             |
+|         16 |             100 |             82 |         100 | E            |          16 |           25 | E             |
+|         17 |             100 |            100 |         100 | A            |          17 |            0 | A             |
+|         17 |             100 |            100 |         100 | A            |          17 |            0 | A             |
++------------+-----------------+----------------+-------------+--------------+-------------+--------------+---------------+
+48 rows in set (600 disk I/O, 44778.8 ms)
+
+Test2.txt:82> SELECT * FROM course, course2 WHERE course.sid = course2.sid AND course.exam = 100 AND course2.exam = 100
++------------+-----------------+----------------+-------------+--------------+-------------+--------------+---------------+
+| course.sid | course.homework | course.project | course.exam | course.grade | course2.sid | course2.exam | course2.grade |
++------------+-----------------+----------------+-------------+--------------+-------------+--------------+---------------+
+|          1 |              99 |            100 |         100 | A            |           1 |          100 | A             |
++------------+-----------------+----------------+-------------+--------------+-------------+--------------+---------------+
+1 row in set (92 disk I/O, 6866.76 ms)
+
+Test2.txt:83> SELECT DISTINCT course.grade, course2.grade FROM course, course2 WHERE course.sid = course2.sid AND course.grade = "A" AND course2.grade = "A" ORDER BY course.exam
++--------------+---------------+
+| course.grade | course2.grade |
++--------------+---------------+
+| A            | A             |
++--------------+---------------+
+1 row in set (133 disk I/O, 9926.55 ms)
+
+Test2.txt:84> DROP TABLE course
+Query OK (0 disk I/O, 0.55 ms)
+
+Test2.txt:85> DROP TABLE course2
+Query OK (0 disk I/O, 0.55 ms)
+

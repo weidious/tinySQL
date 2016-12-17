@@ -1,0 +1,1055 @@
+Test3.txt:1> CREATE TABLE r (a INT, b INT)
+Query OK (0 disk I/O, 0 ms)
+
+Test3.txt:2> CREATE TABLE s (b INT, c INT)
+Query OK (0 disk I/O, 0 ms)
+
+Test3.txt:3> CREATE TABLE t (a INT, c INT)
+Query OK (0 disk I/O, 0 ms)
+
+Test3.txt:4> INSERT INTO r (a, b) VALUES (0, 0)
+Query OK (1 disk I/O, 74.63 ms)
+
+Test3.txt:5> INSERT INTO r (a, b) VALUES (1, 1)
+Query OK (2 disk I/O, 149.89 ms)
+
+Test3.txt:6> INSERT INTO r (a, b) VALUES (1, 1)
+Query OK (2 disk I/O, 150.15 ms)
+
+Test3.txt:7> INSERT INTO r (a, b) VALUES (2, 2)
+Query OK (2 disk I/O, 149.41 ms)
+
+Test3.txt:8> INSERT INTO r (a, b) VALUES (3, 3)
+Query OK (1 disk I/O, 75.04 ms)
+
+Test3.txt:9> INSERT INTO r (a, b) VALUES (0, 0)
+Query OK (2 disk I/O, 149.3 ms)
+
+Test3.txt:10> INSERT INTO r (a, b) VALUES (1, 1)
+Query OK (2 disk I/O, 149.56 ms)
+
+Test3.txt:11> INSERT INTO r (a, b) VALUES (2, 2)
+Query OK (2 disk I/O, 149.82 ms)
+
+Test3.txt:12> INSERT INTO r (a, b) VALUES (0, 0)
+Query OK (1 disk I/O, 75.45 ms)
+
+Test3.txt:13> INSERT INTO r (a, b) VALUES (1, 1)
+Query OK (2 disk I/O, 149.71 ms)
+
+Test3.txt:14> INSERT INTO r (a, b) VALUES (1, 1)
+Query OK (2 disk I/O, 149.97 ms)
+
+Test3.txt:15> INSERT INTO r (a, b) VALUES (2, 2)
+Query OK (2 disk I/O, 150.23 ms)
+
+Test3.txt:16> INSERT INTO r (a, b) VALUES (3, 3)
+Query OK (1 disk I/O, 74.86 ms)
+
+Test3.txt:17> INSERT INTO r (a, b) VALUES (0, 0)
+Query OK (2 disk I/O, 150.12 ms)
+
+Test3.txt:18> INSERT INTO r (a, b) VALUES (1, 1)
+Query OK (2 disk I/O, 149.38 ms)
+
+Test3.txt:19> INSERT INTO r (a, b) VALUES (2, 2)
+Query OK (2 disk I/O, 149.64 ms)
+
+Test3.txt:20> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (1 disk I/O, 75.27 ms)
+
+Test3.txt:21> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (2 disk I/O, 149.53 ms)
+
+Test3.txt:22> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (2 disk I/O, 149.79 ms)
+
+Test3.txt:23> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (2 disk I/O, 150.05 ms)
+
+Test3.txt:24> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (1 disk I/O, 74.68 ms)
+
+Test3.txt:25> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (2 disk I/O, 149.94 ms)
+
+Test3.txt:26> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (2 disk I/O, 150.2 ms)
+
+Test3.txt:27> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (2 disk I/O, 149.46 ms)
+
+Test3.txt:28> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (1 disk I/O, 75.09 ms)
+
+Test3.txt:29> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (2 disk I/O, 149.35 ms)
+
+Test3.txt:30> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (2 disk I/O, 149.61 ms)
+
+Test3.txt:31> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (2 disk I/O, 149.87 ms)
+
+Test3.txt:32> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (1 disk I/O, 75.5 ms)
+
+Test3.txt:33> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (2 disk I/O, 149.76 ms)
+
+Test3.txt:34> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (2 disk I/O, 150.02 ms)
+
+Test3.txt:35> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (2 disk I/O, 149.28 ms)
+
+Test3.txt:36> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (1 disk I/O, 74.91 ms)
+
+Test3.txt:37> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (2 disk I/O, 150.17 ms)
+
+Test3.txt:38> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (2 disk I/O, 149.43 ms)
+
+Test3.txt:39> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (2 disk I/O, 149.69 ms)
+
+Test3.txt:40> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (1 disk I/O, 75.32 ms)
+
+Test3.txt:41> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (2 disk I/O, 149.58 ms)
+
+Test3.txt:42> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (2 disk I/O, 149.84 ms)
+
+Test3.txt:43> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (2 disk I/O, 150.1 ms)
+
+Test3.txt:44> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (1 disk I/O, 74.73 ms)
+
+Test3.txt:45> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (2 disk I/O, 149.99 ms)
+
+Test3.txt:46> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (2 disk I/O, 150.25 ms)
+
+Test3.txt:47> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (2 disk I/O, 149.51 ms)
+
+Test3.txt:48> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (1 disk I/O, 75.14 ms)
+
+Test3.txt:49> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (2 disk I/O, 149.4 ms)
+
+Test3.txt:50> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (2 disk I/O, 149.66 ms)
+
+Test3.txt:51> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (2 disk I/O, 149.92 ms)
+
+Test3.txt:52> INSERT INTO r (a, b) VALUES (100, 100)
+Query OK (1 disk I/O, 75.55 ms)
+
+Test3.txt:53> INSERT INTO s (b, c) VALUES (0, 0)
+Query OK (1 disk I/O, 75.18 ms)
+
+Test3.txt:54> INSERT INTO s (b, c) VALUES (2, 2)
+Query OK (2 disk I/O, 149.44 ms)
+
+Test3.txt:55> INSERT INTO s (b, c) VALUES (3, 3)
+Query OK (2 disk I/O, 149.7 ms)
+
+Test3.txt:56> INSERT INTO s (b, c) VALUES (0, 0)
+Query OK (2 disk I/O, 149.96 ms)
+
+Test3.txt:57> INSERT INTO s (b, c) VALUES (0, 0)
+Query OK (1 disk I/O, 75.59 ms)
+
+Test3.txt:58> INSERT INTO s (b, c) VALUES (1, 1)
+Query OK (2 disk I/O, 149.85 ms)
+
+Test3.txt:59> INSERT INTO s (b, c) VALUES (1, 1)
+Query OK (2 disk I/O, 150.11 ms)
+
+Test3.txt:60> INSERT INTO s (b, c) VALUES (2, 2)
+Query OK (2 disk I/O, 149.37 ms)
+
+Test3.txt:61> INSERT INTO s (b, c) VALUES (2, 2)
+Query OK (1 disk I/O, 75 ms)
+
+Test3.txt:62> INSERT INTO s (b, c) VALUES (3, 3)
+Query OK (2 disk I/O, 149.26 ms)
+
+Test3.txt:63> INSERT INTO s (b, c) VALUES (3, 3)
+Query OK (2 disk I/O, 149.52 ms)
+
+Test3.txt:64> INSERT INTO s (b, c) VALUES (3, 3)
+Query OK (2 disk I/O, 149.78 ms)
+
+Test3.txt:65> INSERT INTO s (b, c) VALUES (0, 0)
+Query OK (1 disk I/O, 75.41 ms)
+
+Test3.txt:66> INSERT INTO s (b, c) VALUES (2, 2)
+Query OK (2 disk I/O, 149.67 ms)
+
+Test3.txt:67> INSERT INTO s (b, c) VALUES (3, 3)
+Query OK (2 disk I/O, 149.93 ms)
+
+Test3.txt:68> INSERT INTO s (b, c) VALUES (0, 0)
+Query OK (2 disk I/O, 150.19 ms)
+
+Test3.txt:69> INSERT INTO s (b, c) VALUES (0, 0)
+Query OK (1 disk I/O, 74.82 ms)
+
+Test3.txt:70> INSERT INTO s (b, c) VALUES (1, 1)
+Query OK (2 disk I/O, 150.08 ms)
+
+Test3.txt:71> INSERT INTO s (b, c) VALUES (1, 1)
+Query OK (2 disk I/O, 149.34 ms)
+
+Test3.txt:72> INSERT INTO s (b, c) VALUES (2, 2)
+Query OK (2 disk I/O, 149.6 ms)
+
+Test3.txt:73> INSERT INTO s (b, c) VALUES (2, 2)
+Query OK (1 disk I/O, 75.23 ms)
+
+Test3.txt:74> INSERT INTO s (b, c) VALUES (3, 3)
+Query OK (2 disk I/O, 149.49 ms)
+
+Test3.txt:75> INSERT INTO s (b, c) VALUES (3, 3)
+Query OK (2 disk I/O, 149.75 ms)
+
+Test3.txt:76> INSERT INTO s (b, c) VALUES (3, 3)
+Query OK (2 disk I/O, 150.01 ms)
+
+Test3.txt:77> INSERT INTO s (b, c) VALUES (101, 101)
+Query OK (1 disk I/O, 74.64 ms)
+
+Test3.txt:78> INSERT INTO s (b, c) VALUES (101, 101)
+Query OK (2 disk I/O, 149.9 ms)
+
+Test3.txt:79> INSERT INTO s (b, c) VALUES (101, 101)
+Query OK (2 disk I/O, 150.16 ms)
+
+Test3.txt:80> INSERT INTO s (b, c) VALUES (101, 101)
+Query OK (2 disk I/O, 149.42 ms)
+
+Test3.txt:81> INSERT INTO s (b, c) VALUES (101, 101)
+Query OK (1 disk I/O, 75.05 ms)
+
+Test3.txt:82> INSERT INTO s (b, c) VALUES (101, 101)
+Query OK (2 disk I/O, 149.31 ms)
+
+Test3.txt:83> INSERT INTO s (b, c) VALUES (101, 101)
+Query OK (2 disk I/O, 149.57 ms)
+
+Test3.txt:84> INSERT INTO s (b, c) VALUES (101, 101)
+Query OK (2 disk I/O, 149.83 ms)
+
+Test3.txt:85> INSERT INTO s (b, c) VALUES (101, 101)
+Query OK (1 disk I/O, 75.46 ms)
+
+Test3.txt:86> INSERT INTO s (b, c) VALUES (101, 101)
+Query OK (2 disk I/O, 149.72 ms)
+
+Test3.txt:87> INSERT INTO s (b, c) VALUES (101, 101)
+Query OK (2 disk I/O, 149.98 ms)
+
+Test3.txt:88> INSERT INTO s (b, c) VALUES (101, 101)
+Query OK (2 disk I/O, 150.24 ms)
+
+Test3.txt:89> INSERT INTO s (b, c) VALUES (101, 101)
+Query OK (1 disk I/O, 74.87 ms)
+
+Test3.txt:90> INSERT INTO s (b, c) VALUES (101, 101)
+Query OK (2 disk I/O, 150.13 ms)
+
+Test3.txt:91> INSERT INTO s (b, c) VALUES (101, 101)
+Query OK (2 disk I/O, 149.39 ms)
+
+Test3.txt:92> INSERT INTO s (b, c) VALUES (101, 101)
+Query OK (2 disk I/O, 149.65 ms)
+
+Test3.txt:93> INSERT INTO s (b, c) VALUES (101, 101)
+Query OK (1 disk I/O, 75.28 ms)
+
+Test3.txt:94> INSERT INTO s (b, c) VALUES (101, 101)
+Query OK (2 disk I/O, 149.54 ms)
+
+Test3.txt:95> INSERT INTO s (b, c) VALUES (101, 101)
+Query OK (2 disk I/O, 149.8 ms)
+
+Test3.txt:96> INSERT INTO s (b, c) VALUES (101, 101)
+Query OK (2 disk I/O, 150.06 ms)
+
+Test3.txt:97> INSERT INTO s (b, c) VALUES (101, 101)
+Query OK (1 disk I/O, 74.69 ms)
+
+Test3.txt:98> INSERT INTO s (b, c) VALUES (101, 101)
+Query OK (2 disk I/O, 149.95 ms)
+
+Test3.txt:99> INSERT INTO s (b, c) VALUES (101, 101)
+Query OK (2 disk I/O, 150.21 ms)
+
+Test3.txt:100> INSERT INTO s (b, c) VALUES (101, 101)
+Query OK (2 disk I/O, 149.47 ms)
+
+Test3.txt:101> INSERT INTO s (b, c) VALUES (101, 101)
+Query OK (1 disk I/O, 75.1 ms)
+
+Test3.txt:102> INSERT INTO s (b, c) VALUES (101, 101)
+Query OK (2 disk I/O, 149.36 ms)
+
+Test3.txt:103> INSERT INTO s (b, c) VALUES (101, 101)
+Query OK (2 disk I/O, 149.62 ms)
+
+Test3.txt:104> INSERT INTO s (b, c) VALUES (101, 101)
+Query OK (2 disk I/O, 149.88 ms)
+
+Test3.txt:105> INSERT INTO s (b, c) VALUES (101, 101)
+Query OK (1 disk I/O, 75.51 ms)
+
+Test3.txt:106> INSERT INTO t (a, c) VALUES (0, 0)
+Query OK (1 disk I/O, 75.14 ms)
+
+Test3.txt:107> INSERT INTO t (a, c) VALUES (1, 1)
+Query OK (2 disk I/O, 149.4 ms)
+
+Test3.txt:108> INSERT INTO t (a, c) VALUES (2, 2)
+Query OK (2 disk I/O, 149.66 ms)
+
+Test3.txt:109> INSERT INTO t (a, c) VALUES (0, 0)
+Query OK (2 disk I/O, 149.92 ms)
+
+Test3.txt:110> INSERT INTO t (a, c) VALUES (1, 1)
+Query OK (1 disk I/O, 75.55 ms)
+
+Test3.txt:111> INSERT INTO t (a, c) VALUES (1, 1)
+Query OK (2 disk I/O, 149.81 ms)
+
+Test3.txt:112> INSERT INTO t (a, c) VALUES (2, 2)
+Query OK (2 disk I/O, 150.07 ms)
+
+Test3.txt:113> INSERT INTO t (a, c) VALUES (3, 3)
+Query OK (2 disk I/O, 149.33 ms)
+
+Test3.txt:114> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (1 disk I/O, 74.96 ms)
+
+Test3.txt:115> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (2 disk I/O, 150.22 ms)
+
+Test3.txt:116> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (2 disk I/O, 149.48 ms)
+
+Test3.txt:117> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (2 disk I/O, 149.74 ms)
+
+Test3.txt:118> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (1 disk I/O, 75.37 ms)
+
+Test3.txt:119> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (2 disk I/O, 149.63 ms)
+
+Test3.txt:120> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (2 disk I/O, 149.89 ms)
+
+Test3.txt:121> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (2 disk I/O, 150.15 ms)
+
+Test3.txt:122> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (1 disk I/O, 74.78 ms)
+
+Test3.txt:123> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (2 disk I/O, 150.04 ms)
+
+Test3.txt:124> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (2 disk I/O, 149.3 ms)
+
+Test3.txt:125> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (2 disk I/O, 149.56 ms)
+
+Test3.txt:126> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (1 disk I/O, 75.19 ms)
+
+Test3.txt:127> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (2 disk I/O, 149.45 ms)
+
+Test3.txt:128> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (2 disk I/O, 149.71 ms)
+
+Test3.txt:129> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (2 disk I/O, 149.97 ms)
+
+Test3.txt:130> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (1 disk I/O, 75.6 ms)
+
+Test3.txt:131> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (2 disk I/O, 149.86 ms)
+
+Test3.txt:132> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (2 disk I/O, 150.12 ms)
+
+Test3.txt:133> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (2 disk I/O, 149.38 ms)
+
+Test3.txt:134> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (1 disk I/O, 75.01 ms)
+
+Test3.txt:135> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (2 disk I/O, 149.27 ms)
+
+Test3.txt:136> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (2 disk I/O, 149.53 ms)
+
+Test3.txt:137> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (2 disk I/O, 149.79 ms)
+
+Test3.txt:138> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (1 disk I/O, 75.42 ms)
+
+Test3.txt:139> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (2 disk I/O, 149.68 ms)
+
+Test3.txt:140> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (2 disk I/O, 149.94 ms)
+
+Test3.txt:141> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (2 disk I/O, 150.2 ms)
+
+Test3.txt:142> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (1 disk I/O, 74.83 ms)
+
+Test3.txt:143> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (2 disk I/O, 150.09 ms)
+
+Test3.txt:144> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (2 disk I/O, 149.35 ms)
+
+Test3.txt:145> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (2 disk I/O, 149.61 ms)
+
+Test3.txt:146> INSERT INTO t (a, c) VALUES (102, 102)
+Query OK (1 disk I/O, 75.24 ms)
+
+Test3.txt:147> SELECT * FROM r, s, t WHERE r.a = t.a AND r.b = s.b AND s.c = t.c
++-----+-----+-----+-----+-----+-----+
+| s.b | s.c | r.a | r.b | t.a | t.c |
++-----+-----+-----+-----+-----+-----+
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   0 |   0 |   0 |   0 |   0 |   0 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   1 |   1 |   1 |   1 |   1 |   1 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   2 |   2 |   2 |   2 |   2 |   2 |
+|   3 |   3 |   3 |   3 |   3 |   3 |
+|   3 |   3 |   3 |   3 |   3 |   3 |
+|   3 |   3 |   3 |   3 |   3 |   3 |
+|   3 |   3 |   3 |   3 |   3 |   3 |
+|   3 |   3 |   3 |   3 |   3 |   3 |
+|   3 |   3 |   3 |   3 |   3 |   3 |
+|   3 |   3 |   3 |   3 |   3 |   3 |
+|   3 |   3 |   3 |   3 |   3 |   3 |
+|   3 |   3 |   3 |   3 |   3 |   3 |
+|   3 |   3 |   3 |   3 |   3 |   3 |
+|   3 |   3 |   3 |   3 |   3 |   3 |
+|   3 |   3 |   3 |   3 |   3 |   3 |
+|   3 |   3 |   3 |   3 |   3 |   3 |
+|   3 |   3 |   3 |   3 |   3 |   3 |
+|   3 |   3 |   3 |   3 |   3 |   3 |
+|   3 |   3 |   3 |   3 |   3 |   3 |
++-----+-----+-----+-----+-----+-----+
+184 rows in set (293 disk I/O, 21866.8 ms)
+
+Test3.txt:148> DROP TABLE r
+Query OK (0 disk I/O, 0.83 ms)
+
+Test3.txt:149> DROP TABLE s
+Query OK (0 disk I/O, 0.83 ms)
+
+Test3.txt:150> DROP TABLE t
+Query OK (0 disk I/O, 0.83 ms)
+
+Test3.txt:151> CREATE TABLE t1 (c INT)
+Query OK (0 disk I/O, 0.83 ms)
+
+Test3.txt:152> CREATE TABLE t2 (c INT)
+Query OK (0 disk I/O, 0.83 ms)
+
+Test3.txt:153> CREATE TABLE t3 (c INT)
+Query OK (0 disk I/O, 0.83 ms)
+
+Test3.txt:154> CREATE TABLE t4 (c INT)
+Query OK (0 disk I/O, 0.83 ms)
+
+Test3.txt:155> CREATE TABLE t5 (c INT)
+Query OK (0 disk I/O, 0.83 ms)
+
+Test3.txt:156> CREATE TABLE t6 (c INT)
+Query OK (0 disk I/O, 0.83 ms)
+
+Test3.txt:157> INSERT INTO t1 (c) VALUES (0)
+Query OK (1 disk I/O, 75.46 ms)
+
+Test3.txt:158> INSERT INTO t1 (c) VALUES (1)
+Query OK (2 disk I/O, 149.72 ms)
+
+Test3.txt:159> INSERT INTO t1 (c) VALUES (2)
+Query OK (2 disk I/O, 149.98 ms)
+
+Test3.txt:160> INSERT INTO t1 (c) VALUES (3)
+Query OK (2 disk I/O, 150.24 ms)
+
+Test3.txt:161> INSERT INTO t1 (c) VALUES (4)
+Query OK (2 disk I/O, 149.5 ms)
+
+Test3.txt:162> INSERT INTO t2 (c) VALUES (0)
+Query OK (1 disk I/O, 75.13 ms)
+
+Test3.txt:163> INSERT INTO t2 (c) VALUES (1)
+Query OK (2 disk I/O, 149.39 ms)
+
+Test3.txt:164> INSERT INTO t2 (c) VALUES (2)
+Query OK (2 disk I/O, 149.65 ms)
+
+Test3.txt:165> INSERT INTO t2 (c) VALUES (3)
+Query OK (2 disk I/O, 149.91 ms)
+
+Test3.txt:166> INSERT INTO t3 (c) VALUES (0)
+Query OK (1 disk I/O, 75.54 ms)
+
+Test3.txt:167> INSERT INTO t3 (c) VALUES (1)
+Query OK (2 disk I/O, 149.8 ms)
+
+Test3.txt:168> INSERT INTO t3 (c) VALUES (2)
+Query OK (2 disk I/O, 150.06 ms)
+
+Test3.txt:169> INSERT INTO t3 (c) VALUES (3)
+Query OK (2 disk I/O, 149.32 ms)
+
+Test3.txt:170> INSERT INTO t4 (c) VALUES (0)
+Query OK (1 disk I/O, 74.95 ms)
+
+Test3.txt:171> INSERT INTO t4 (c) VALUES (1)
+Query OK (2 disk I/O, 150.21 ms)
+
+Test3.txt:172> INSERT INTO t5 (c) VALUES (0)
+Query OK (1 disk I/O, 74.84 ms)
+
+Test3.txt:173> INSERT INTO t5 (c) VALUES (0)
+Query OK (2 disk I/O, 150.1 ms)
+
+Test3.txt:174> INSERT INTO t6 (c) VALUES (0)
+Query OK (1 disk I/O, 74.73 ms)
+
+Test3.txt:175> SELECT * FROM t1, t2, t3, t4, t5, t6
++------+------+------+------+------+------+
+| t1.c | t2.c | t3.c | t4.c | t5.c | t6.c |
++------+------+------+------+------+------+
+|    0 |    0 |    0 |    0 |    0 |    0 |
+|    1 |    0 |    0 |    0 |    0 |    0 |
+|    2 |    0 |    0 |    0 |    0 |    0 |
+|    3 |    0 |    0 |    0 |    0 |    0 |
+|    4 |    0 |    0 |    0 |    0 |    0 |
+|    0 |    1 |    0 |    0 |    0 |    0 |
+|    1 |    1 |    0 |    0 |    0 |    0 |
+|    2 |    1 |    0 |    0 |    0 |    0 |
+|    3 |    1 |    0 |    0 |    0 |    0 |
+|    4 |    1 |    0 |    0 |    0 |    0 |
+|    0 |    2 |    0 |    0 |    0 |    0 |
+|    1 |    2 |    0 |    0 |    0 |    0 |
+|    2 |    2 |    0 |    0 |    0 |    0 |
+|    3 |    2 |    0 |    0 |    0 |    0 |
+|    4 |    2 |    0 |    0 |    0 |    0 |
+|    0 |    3 |    0 |    0 |    0 |    0 |
+|    1 |    3 |    0 |    0 |    0 |    0 |
+|    2 |    3 |    0 |    0 |    0 |    0 |
+|    3 |    3 |    0 |    0 |    0 |    0 |
+|    4 |    3 |    0 |    0 |    0 |    0 |
+|    0 |    0 |    1 |    0 |    0 |    0 |
+|    1 |    0 |    1 |    0 |    0 |    0 |
+|    2 |    0 |    1 |    0 |    0 |    0 |
+|    3 |    0 |    1 |    0 |    0 |    0 |
+|    4 |    0 |    1 |    0 |    0 |    0 |
+|    0 |    1 |    1 |    0 |    0 |    0 |
+|    1 |    1 |    1 |    0 |    0 |    0 |
+|    2 |    1 |    1 |    0 |    0 |    0 |
+|    3 |    1 |    1 |    0 |    0 |    0 |
+|    4 |    1 |    1 |    0 |    0 |    0 |
+|    0 |    2 |    1 |    0 |    0 |    0 |
+|    1 |    2 |    1 |    0 |    0 |    0 |
+|    2 |    2 |    1 |    0 |    0 |    0 |
+|    3 |    2 |    1 |    0 |    0 |    0 |
+|    4 |    2 |    1 |    0 |    0 |    0 |
+|    0 |    3 |    1 |    0 |    0 |    0 |
+|    1 |    3 |    1 |    0 |    0 |    0 |
+|    2 |    3 |    1 |    0 |    0 |    0 |
+|    3 |    3 |    1 |    0 |    0 |    0 |
+|    4 |    3 |    1 |    0 |    0 |    0 |
+|    0 |    0 |    2 |    0 |    0 |    0 |
+|    1 |    0 |    2 |    0 |    0 |    0 |
+|    2 |    0 |    2 |    0 |    0 |    0 |
+|    3 |    0 |    2 |    0 |    0 |    0 |
+|    4 |    0 |    2 |    0 |    0 |    0 |
+|    0 |    1 |    2 |    0 |    0 |    0 |
+|    1 |    1 |    2 |    0 |    0 |    0 |
+|    2 |    1 |    2 |    0 |    0 |    0 |
+|    3 |    1 |    2 |    0 |    0 |    0 |
+|    4 |    1 |    2 |    0 |    0 |    0 |
+|    0 |    2 |    2 |    0 |    0 |    0 |
+|    1 |    2 |    2 |    0 |    0 |    0 |
+|    2 |    2 |    2 |    0 |    0 |    0 |
+|    3 |    2 |    2 |    0 |    0 |    0 |
+|    4 |    2 |    2 |    0 |    0 |    0 |
+|    0 |    3 |    2 |    0 |    0 |    0 |
+|    1 |    3 |    2 |    0 |    0 |    0 |
+|    2 |    3 |    2 |    0 |    0 |    0 |
+|    3 |    3 |    2 |    0 |    0 |    0 |
+|    4 |    3 |    2 |    0 |    0 |    0 |
+|    0 |    0 |    3 |    0 |    0 |    0 |
+|    1 |    0 |    3 |    0 |    0 |    0 |
+|    2 |    0 |    3 |    0 |    0 |    0 |
+|    3 |    0 |    3 |    0 |    0 |    0 |
+|    4 |    0 |    3 |    0 |    0 |    0 |
+|    0 |    1 |    3 |    0 |    0 |    0 |
+|    1 |    1 |    3 |    0 |    0 |    0 |
+|    2 |    1 |    3 |    0 |    0 |    0 |
+|    3 |    1 |    3 |    0 |    0 |    0 |
+|    4 |    1 |    3 |    0 |    0 |    0 |
+|    0 |    2 |    3 |    0 |    0 |    0 |
+|    1 |    2 |    3 |    0 |    0 |    0 |
+|    2 |    2 |    3 |    0 |    0 |    0 |
+|    3 |    2 |    3 |    0 |    0 |    0 |
+|    4 |    2 |    3 |    0 |    0 |    0 |
+|    0 |    3 |    3 |    0 |    0 |    0 |
+|    1 |    3 |    3 |    0 |    0 |    0 |
+|    2 |    3 |    3 |    0 |    0 |    0 |
+|    3 |    3 |    3 |    0 |    0 |    0 |
+|    4 |    3 |    3 |    0 |    0 |    0 |
+|    0 |    0 |    0 |    1 |    0 |    0 |
+|    1 |    0 |    0 |    1 |    0 |    0 |
+|    2 |    0 |    0 |    1 |    0 |    0 |
+|    3 |    0 |    0 |    1 |    0 |    0 |
+|    4 |    0 |    0 |    1 |    0 |    0 |
+|    0 |    1 |    0 |    1 |    0 |    0 |
+|    1 |    1 |    0 |    1 |    0 |    0 |
+|    2 |    1 |    0 |    1 |    0 |    0 |
+|    3 |    1 |    0 |    1 |    0 |    0 |
+|    4 |    1 |    0 |    1 |    0 |    0 |
+|    0 |    2 |    0 |    1 |    0 |    0 |
+|    1 |    2 |    0 |    1 |    0 |    0 |
+|    2 |    2 |    0 |    1 |    0 |    0 |
+|    3 |    2 |    0 |    1 |    0 |    0 |
+|    4 |    2 |    0 |    1 |    0 |    0 |
+|    0 |    3 |    0 |    1 |    0 |    0 |
+|    1 |    3 |    0 |    1 |    0 |    0 |
+|    2 |    3 |    0 |    1 |    0 |    0 |
+|    3 |    3 |    0 |    1 |    0 |    0 |
+|    4 |    3 |    0 |    1 |    0 |    0 |
+|    0 |    0 |    1 |    1 |    0 |    0 |
+|    1 |    0 |    1 |    1 |    0 |    0 |
+|    2 |    0 |    1 |    1 |    0 |    0 |
+|    3 |    0 |    1 |    1 |    0 |    0 |
+|    4 |    0 |    1 |    1 |    0 |    0 |
+|    0 |    1 |    1 |    1 |    0 |    0 |
+|    1 |    1 |    1 |    1 |    0 |    0 |
+|    2 |    1 |    1 |    1 |    0 |    0 |
+|    3 |    1 |    1 |    1 |    0 |    0 |
+|    4 |    1 |    1 |    1 |    0 |    0 |
+|    0 |    2 |    1 |    1 |    0 |    0 |
+|    1 |    2 |    1 |    1 |    0 |    0 |
+|    2 |    2 |    1 |    1 |    0 |    0 |
+|    3 |    2 |    1 |    1 |    0 |    0 |
+|    4 |    2 |    1 |    1 |    0 |    0 |
+|    0 |    3 |    1 |    1 |    0 |    0 |
+|    1 |    3 |    1 |    1 |    0 |    0 |
+|    2 |    3 |    1 |    1 |    0 |    0 |
+|    3 |    3 |    1 |    1 |    0 |    0 |
+|    4 |    3 |    1 |    1 |    0 |    0 |
+|    0 |    0 |    2 |    1 |    0 |    0 |
+|    1 |    0 |    2 |    1 |    0 |    0 |
+|    2 |    0 |    2 |    1 |    0 |    0 |
+|    3 |    0 |    2 |    1 |    0 |    0 |
+|    4 |    0 |    2 |    1 |    0 |    0 |
+|    0 |    1 |    2 |    1 |    0 |    0 |
+|    1 |    1 |    2 |    1 |    0 |    0 |
+|    2 |    1 |    2 |    1 |    0 |    0 |
+|    3 |    1 |    2 |    1 |    0 |    0 |
+|    4 |    1 |    2 |    1 |    0 |    0 |
+|    0 |    2 |    2 |    1 |    0 |    0 |
+|    1 |    2 |    2 |    1 |    0 |    0 |
+|    2 |    2 |    2 |    1 |    0 |    0 |
+|    3 |    2 |    2 |    1 |    0 |    0 |
+|    4 |    2 |    2 |    1 |    0 |    0 |
+|    0 |    3 |    2 |    1 |    0 |    0 |
+|    1 |    3 |    2 |    1 |    0 |    0 |
+|    2 |    3 |    2 |    1 |    0 |    0 |
+|    3 |    3 |    2 |    1 |    0 |    0 |
+|    4 |    3 |    2 |    1 |    0 |    0 |
+|    0 |    0 |    3 |    1 |    0 |    0 |
+|    1 |    0 |    3 |    1 |    0 |    0 |
+|    2 |    0 |    3 |    1 |    0 |    0 |
+|    3 |    0 |    3 |    1 |    0 |    0 |
+|    4 |    0 |    3 |    1 |    0 |    0 |
+|    0 |    1 |    3 |    1 |    0 |    0 |
+|    1 |    1 |    3 |    1 |    0 |    0 |
+|    2 |    1 |    3 |    1 |    0 |    0 |
+|    3 |    1 |    3 |    1 |    0 |    0 |
+|    4 |    1 |    3 |    1 |    0 |    0 |
+|    0 |    2 |    3 |    1 |    0 |    0 |
+|    1 |    2 |    3 |    1 |    0 |    0 |
+|    2 |    2 |    3 |    1 |    0 |    0 |
+|    3 |    2 |    3 |    1 |    0 |    0 |
+|    4 |    2 |    3 |    1 |    0 |    0 |
+|    0 |    3 |    3 |    1 |    0 |    0 |
+|    1 |    3 |    3 |    1 |    0 |    0 |
+|    2 |    3 |    3 |    1 |    0 |    0 |
+|    3 |    3 |    3 |    1 |    0 |    0 |
+|    4 |    3 |    3 |    1 |    0 |    0 |
+|    0 |    0 |    0 |    0 |    0 |    0 |
+|    1 |    0 |    0 |    0 |    0 |    0 |
+|    2 |    0 |    0 |    0 |    0 |    0 |
+|    3 |    0 |    0 |    0 |    0 |    0 |
+|    4 |    0 |    0 |    0 |    0 |    0 |
+|    0 |    1 |    0 |    0 |    0 |    0 |
+|    1 |    1 |    0 |    0 |    0 |    0 |
+|    2 |    1 |    0 |    0 |    0 |    0 |
+|    3 |    1 |    0 |    0 |    0 |    0 |
+|    4 |    1 |    0 |    0 |    0 |    0 |
+|    0 |    2 |    0 |    0 |    0 |    0 |
+|    1 |    2 |    0 |    0 |    0 |    0 |
+|    2 |    2 |    0 |    0 |    0 |    0 |
+|    3 |    2 |    0 |    0 |    0 |    0 |
+|    4 |    2 |    0 |    0 |    0 |    0 |
+|    0 |    3 |    0 |    0 |    0 |    0 |
+|    1 |    3 |    0 |    0 |    0 |    0 |
+|    2 |    3 |    0 |    0 |    0 |    0 |
+|    3 |    3 |    0 |    0 |    0 |    0 |
+|    4 |    3 |    0 |    0 |    0 |    0 |
+|    0 |    0 |    1 |    0 |    0 |    0 |
+|    1 |    0 |    1 |    0 |    0 |    0 |
+|    2 |    0 |    1 |    0 |    0 |    0 |
+|    3 |    0 |    1 |    0 |    0 |    0 |
+|    4 |    0 |    1 |    0 |    0 |    0 |
+|    0 |    1 |    1 |    0 |    0 |    0 |
+|    1 |    1 |    1 |    0 |    0 |    0 |
+|    2 |    1 |    1 |    0 |    0 |    0 |
+|    3 |    1 |    1 |    0 |    0 |    0 |
+|    4 |    1 |    1 |    0 |    0 |    0 |
+|    0 |    2 |    1 |    0 |    0 |    0 |
+|    1 |    2 |    1 |    0 |    0 |    0 |
+|    2 |    2 |    1 |    0 |    0 |    0 |
+|    3 |    2 |    1 |    0 |    0 |    0 |
+|    4 |    2 |    1 |    0 |    0 |    0 |
+|    0 |    3 |    1 |    0 |    0 |    0 |
+|    1 |    3 |    1 |    0 |    0 |    0 |
+|    2 |    3 |    1 |    0 |    0 |    0 |
+|    3 |    3 |    1 |    0 |    0 |    0 |
+|    4 |    3 |    1 |    0 |    0 |    0 |
+|    0 |    0 |    2 |    0 |    0 |    0 |
+|    1 |    0 |    2 |    0 |    0 |    0 |
+|    2 |    0 |    2 |    0 |    0 |    0 |
+|    3 |    0 |    2 |    0 |    0 |    0 |
+|    4 |    0 |    2 |    0 |    0 |    0 |
+|    0 |    1 |    2 |    0 |    0 |    0 |
+|    1 |    1 |    2 |    0 |    0 |    0 |
+|    2 |    1 |    2 |    0 |    0 |    0 |
+|    3 |    1 |    2 |    0 |    0 |    0 |
+|    4 |    1 |    2 |    0 |    0 |    0 |
+|    0 |    2 |    2 |    0 |    0 |    0 |
+|    1 |    2 |    2 |    0 |    0 |    0 |
+|    2 |    2 |    2 |    0 |    0 |    0 |
+|    3 |    2 |    2 |    0 |    0 |    0 |
+|    4 |    2 |    2 |    0 |    0 |    0 |
+|    0 |    3 |    2 |    0 |    0 |    0 |
+|    1 |    3 |    2 |    0 |    0 |    0 |
+|    2 |    3 |    2 |    0 |    0 |    0 |
+|    3 |    3 |    2 |    0 |    0 |    0 |
+|    4 |    3 |    2 |    0 |    0 |    0 |
+|    0 |    0 |    3 |    0 |    0 |    0 |
+|    1 |    0 |    3 |    0 |    0 |    0 |
+|    2 |    0 |    3 |    0 |    0 |    0 |
+|    3 |    0 |    3 |    0 |    0 |    0 |
+|    4 |    0 |    3 |    0 |    0 |    0 |
+|    0 |    1 |    3 |    0 |    0 |    0 |
+|    1 |    1 |    3 |    0 |    0 |    0 |
+|    2 |    1 |    3 |    0 |    0 |    0 |
+|    3 |    1 |    3 |    0 |    0 |    0 |
+|    4 |    1 |    3 |    0 |    0 |    0 |
+|    0 |    2 |    3 |    0 |    0 |    0 |
+|    1 |    2 |    3 |    0 |    0 |    0 |
+|    2 |    2 |    3 |    0 |    0 |    0 |
+|    3 |    2 |    3 |    0 |    0 |    0 |
+|    4 |    2 |    3 |    0 |    0 |    0 |
+|    0 |    3 |    3 |    0 |    0 |    0 |
+|    1 |    3 |    3 |    0 |    0 |    0 |
+|    2 |    3 |    3 |    0 |    0 |    0 |
+|    3 |    3 |    3 |    0 |    0 |    0 |
+|    4 |    3 |    3 |    0 |    0 |    0 |
+|    0 |    0 |    0 |    1 |    0 |    0 |
+|    1 |    0 |    0 |    1 |    0 |    0 |
+|    2 |    0 |    0 |    1 |    0 |    0 |
+|    3 |    0 |    0 |    1 |    0 |    0 |
+|    4 |    0 |    0 |    1 |    0 |    0 |
+|    0 |    1 |    0 |    1 |    0 |    0 |
+|    1 |    1 |    0 |    1 |    0 |    0 |
+|    2 |    1 |    0 |    1 |    0 |    0 |
+|    3 |    1 |    0 |    1 |    0 |    0 |
+|    4 |    1 |    0 |    1 |    0 |    0 |
+|    0 |    2 |    0 |    1 |    0 |    0 |
+|    1 |    2 |    0 |    1 |    0 |    0 |
+|    2 |    2 |    0 |    1 |    0 |    0 |
+|    3 |    2 |    0 |    1 |    0 |    0 |
+|    4 |    2 |    0 |    1 |    0 |    0 |
+|    0 |    3 |    0 |    1 |    0 |    0 |
+|    1 |    3 |    0 |    1 |    0 |    0 |
+|    2 |    3 |    0 |    1 |    0 |    0 |
+|    3 |    3 |    0 |    1 |    0 |    0 |
+|    4 |    3 |    0 |    1 |    0 |    0 |
+|    0 |    0 |    1 |    1 |    0 |    0 |
+|    1 |    0 |    1 |    1 |    0 |    0 |
+|    2 |    0 |    1 |    1 |    0 |    0 |
+|    3 |    0 |    1 |    1 |    0 |    0 |
+|    4 |    0 |    1 |    1 |    0 |    0 |
+|    0 |    1 |    1 |    1 |    0 |    0 |
+|    1 |    1 |    1 |    1 |    0 |    0 |
+|    2 |    1 |    1 |    1 |    0 |    0 |
+|    3 |    1 |    1 |    1 |    0 |    0 |
+|    4 |    1 |    1 |    1 |    0 |    0 |
+|    0 |    2 |    1 |    1 |    0 |    0 |
+|    1 |    2 |    1 |    1 |    0 |    0 |
+|    2 |    2 |    1 |    1 |    0 |    0 |
+|    3 |    2 |    1 |    1 |    0 |    0 |
+|    4 |    2 |    1 |    1 |    0 |    0 |
+|    0 |    3 |    1 |    1 |    0 |    0 |
+|    1 |    3 |    1 |    1 |    0 |    0 |
+|    2 |    3 |    1 |    1 |    0 |    0 |
+|    3 |    3 |    1 |    1 |    0 |    0 |
+|    4 |    3 |    1 |    1 |    0 |    0 |
+|    0 |    0 |    2 |    1 |    0 |    0 |
+|    1 |    0 |    2 |    1 |    0 |    0 |
+|    2 |    0 |    2 |    1 |    0 |    0 |
+|    3 |    0 |    2 |    1 |    0 |    0 |
+|    4 |    0 |    2 |    1 |    0 |    0 |
+|    0 |    1 |    2 |    1 |    0 |    0 |
+|    1 |    1 |    2 |    1 |    0 |    0 |
+|    2 |    1 |    2 |    1 |    0 |    0 |
+|    3 |    1 |    2 |    1 |    0 |    0 |
+|    4 |    1 |    2 |    1 |    0 |    0 |
+|    0 |    2 |    2 |    1 |    0 |    0 |
+|    1 |    2 |    2 |    1 |    0 |    0 |
+|    2 |    2 |    2 |    1 |    0 |    0 |
+|    3 |    2 |    2 |    1 |    0 |    0 |
+|    4 |    2 |    2 |    1 |    0 |    0 |
+|    0 |    3 |    2 |    1 |    0 |    0 |
+|    1 |    3 |    2 |    1 |    0 |    0 |
+|    2 |    3 |    2 |    1 |    0 |    0 |
+|    3 |    3 |    2 |    1 |    0 |    0 |
+|    4 |    3 |    2 |    1 |    0 |    0 |
+|    0 |    0 |    3 |    1 |    0 |    0 |
+|    1 |    0 |    3 |    1 |    0 |    0 |
+|    2 |    0 |    3 |    1 |    0 |    0 |
+|    3 |    0 |    3 |    1 |    0 |    0 |
+|    4 |    0 |    3 |    1 |    0 |    0 |
+|    0 |    1 |    3 |    1 |    0 |    0 |
+|    1 |    1 |    3 |    1 |    0 |    0 |
+|    2 |    1 |    3 |    1 |    0 |    0 |
+|    3 |    1 |    3 |    1 |    0 |    0 |
+|    4 |    1 |    3 |    1 |    0 |    0 |
+|    0 |    2 |    3 |    1 |    0 |    0 |
+|    1 |    2 |    3 |    1 |    0 |    0 |
+|    2 |    2 |    3 |    1 |    0 |    0 |
+|    3 |    2 |    3 |    1 |    0 |    0 |
+|    4 |    2 |    3 |    1 |    0 |    0 |
+|    0 |    3 |    3 |    1 |    0 |    0 |
+|    1 |    3 |    3 |    1 |    0 |    0 |
+|    2 |    3 |    3 |    1 |    0 |    0 |
+|    3 |    3 |    3 |    1 |    0 |    0 |
+|    4 |    3 |    3 |    1 |    0 |    0 |
++------+------+------+------+------+------+
+320 rows in set (156 disk I/O, 11643 ms)
+
+Test3.txt:176> DROP TABLE t1
+Query OK (0 disk I/O, 0.01 ms)
+
+Test3.txt:177> DROP TABLE t2
+Query OK (0 disk I/O, 0.01 ms)
+
+Test3.txt:178> DROP TABLE t3
+Query OK (0 disk I/O, 0.01 ms)
+
+Test3.txt:179> DROP TABLE t4
+Query OK (0 disk I/O, 0.01 ms)
+
+Test3.txt:180> DROP TABLE t5
+Query OK (0 disk I/O, 0.01 ms)
+
+Test3.txt:181> DROP TABLE t6
+Query OK (0 disk I/O, 0.01 ms)
+
